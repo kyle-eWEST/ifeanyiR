@@ -322,10 +322,9 @@ svg{
 	width:100%;
 	margin:auto;
 	margin-right: 20px;
-	height: 100vh;
+	min-height: 100%;
 	position: absolute;
 	top: 71px;
-	
 	color:#fff;
 	transition:5s;
 }
@@ -404,7 +403,7 @@ svg{
 	text-decoration: underline;
 }
 
-.chat-div a{
+.chat-div i{
 	
 	text-decoration: none;
 	padding:6px 10px;
