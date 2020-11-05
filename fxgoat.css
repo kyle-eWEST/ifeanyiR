@@ -420,7 +420,7 @@ svg{
 
 .chat-div .fa-telegram{
 	color:#0088cc;
-	background-color: white;
+	background-color: #fff;
 	margin-left:5px;
 }
 
@@ -439,5 +439,4 @@ footer span{
 
 footer .gold{
 	color:gold;
-	
 }
