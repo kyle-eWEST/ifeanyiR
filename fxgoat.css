@@ -413,13 +413,13 @@ svg{
 
 .chat-div .fa-whatsapp{
 	color:#fff;
-	background:#128c7e;
+	background:green;
 	margin-right:5px;
 	
 }
 
 .chat-div .fa-telegram{
-	color:#0088cc;
+	color:blue;
 	background-color: #fff;
 	margin-left:5px;
 }
