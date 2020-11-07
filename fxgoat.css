@@ -329,6 +329,7 @@ svg{
 	color:#fff;
 	transition:5s;
 	overflow-y: hidden;
+	margin-bottom: 0;
 }
 
 .menu-img{
@@ -427,7 +428,7 @@ svg{
 	border-radius: 10px;
 }
 
-.chat-div a{
+.chat-div .icon-letter{
 	font-stretch: 50px;
 	color:#fff;
 	letter-spacing: 1.5px;
@@ -461,4 +462,122 @@ footer span{
 
 footer .gold{
 	color:gold;
+}
+
+
+/*reviews*/
+.reviews{
+	margin-top: 2em;
+	font-stretch: 50px;
+	letter-spacing: 1px;
+	border-top:1px solid;
+	border-bottom:1px solid;
+	white-space: nowrap;
+	overflow-x: hidden;
+	padding:0;
+}
+
+.reviews h5{
+	margin-top: 2px;
+	margin-bottom: 2px;
+	letter-spacing: 2px;
+	font-weight: normal;
+	animation: reviews 20s linear infinite;
+}
+
+@keyframes reviews {
+	0%{
+		transform: translateX(1700px);
+		font-stretch: 50px;
+	}
+	100%{
+		transform: translateX(-2500px);
+		font-stretch: 50px;
+	}
+}
+
+.reviews span{
+	font-weight: bold;
+	font-size: 18px;
+	color:red;
+	font-style: italic;
+}
+
+.reviews a{
+	color:gold;
+}
+
+
+
+
+/*last-footer*/
+.last-footer{
+	border:none;
+	margin-top: 0;
+	padding:2em;
+	font-style: inherit;
+	line-height: 1.4em;
+	font-stretch: 50px;
+}
+
+.last-footer-link{
+	text-align: center;
+	margin-bottom: 1.5em;
+}
+
+.last-footer-link a{
+	font-stretch: 50px;
+	text-decoration: none;
+	color:#fff;
+	background:#808080;
+	padding:7px 5px 3px 5px;
+	border-radius: 50%;
+	width:20px;
+	height: 20px;
+}
+
+.last-footer-link .gap{
+	margin:0 4px;
+}
+
+.last-footer-link i{
+	color:#808080;
+	margin-left: 7px;
+	font-size: 30px;
+	position: absolute;
+}
+
+.last-footer p{
+	letter-spacing: 1px;
+	font-size: 14px;
+	color:#808080;
+}
+
+.last-footer .risk{
+	background: none;
+	font-weight: bold;
+	color:#808080;
+}
+
+
+
+@media (max-width: 760px){
+
+
+	@keyframes reviews {
+	0%{
+		transform: translateX(500px);
+		font-stretch: 50px;
+	}
+	100%{
+		transform: translateX(-2600px);
+		font-stretch: 50px;
+	}
+}
+
+}
+
+
+@media (min-width: 760px){
+
 }
